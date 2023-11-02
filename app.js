@@ -1,6 +1,7 @@
 
 function countWords() {
     const text = document.getElementById('text').value;
+    const resultado = document.getElementById('resultado');
 
-    console.log(text.split(' ').length)
+    resultado.textContent = `El texto tiene ${text.split(' ').length} palabras`;
 }
